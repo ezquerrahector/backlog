@@ -25,7 +25,7 @@ label{font-size:13px;font-weight:700;color:#374151;display:block;margin-bottom:6
 </style>
 </head>
 <body>
-<header><div class="header-wrap"><div class="title"><h1>Backlog Banca Digital — Priorización Estratégica</h1><p>Administración de iniciativas, casos de negocio, ponderación institucional y control de avance.</p></div><div class="badge">Modelo 6 clasificaciones · Backlog priorizado · Administración configurable</div></div></header>
+<header><div class="header-wrap"><div class="title"><h1>Backlog Banca Digital — Priorización Estratégica</h1><p>Administración de iniciativas, casos de negocio, ponderación institucional y control de avance.</p></div><div class="badge">Modelo 6 pilares · Backlog priorizado · Administración configurable</div></div></header>
 <main>
   <div class="tabs">
     <button class="tab active" data-tab="form">+ Nuevo / Editar requerimiento</button>
@@ -125,9 +125,9 @@ label{font-size:13px;font-weight:700;color:#374151;display:block;margin-bottom:6
   <div class="card"><h2>Guía rápida de evaluación</h2>
     <p>El modelo busca comparar iniciativas bajo una misma lógica: valor estratégico, caso de negocio, riesgo, cumplimiento, experiencia y complejidad.</p>
     <div class="grid g2"><div><h3>Escala 1 a 5</h3><p><b>1:</b> impacto mínimo. <b>2:</b> beneficio limitado. <b>3:</b> valor relevante. <b>4:</b> alto impacto. <b>5:</b> estratégico o crítico.</p></div><div><h3>Niveles de prioridad</h3><p><b>0–1.49:</b> Baja · <b>1.50–2.49:</b> Media · <b>2.50–3.49:</b> Alta · <b>3.50–5:</b> Estratégica.</p></div></div>
-    <h3>Ponderación institucional vigente</h3>
+    <h3>Ponderación Banca Digital vigente</h3>
     <table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:16px"><thead><tr style="background:#f8fafc"><th style="padding:8px;border:1px solid #e2e8f0;text-align:left">Clasificación</th><th style="padding:8px;border:1px solid #e2e8f0;text-align:center">Peso</th><th style="padding:8px;border:1px solid #e2e8f0;text-align:left">Criterio</th></tr></thead><tbody><tr><td style="padding:8px;border:1px solid #e2e8f0">Cumplimiento regulatorio</td><td style="padding:8px;border:1px solid #e2e8f0;text-align:center;font-weight:700;color:#0f3d5e">20%</td><td style="padding:8px;border:1px solid #e2e8f0">Atiende regulación, auditoría, normativas o controles. Es de ejecución obligatoria.</td></tr><tr><td style="padding:8px;border:1px solid #e2e8f0">Riesgo / Seguridad / Fraude</td><td style="padding:8px;border:1px solid #e2e8f0;text-align:center;font-weight:700;color:#0f3d5e">20%</td><td style="padding:8px;border:1px solid #e2e8f0">Mitiga riesgos operativos, tecnológicos, reputacionales o de fraude.</td></tr><tr><td style="padding:8px;border:1px solid #e2e8f0">Incremento de ingresos</td><td style="padding:8px;border:1px solid #e2e8f0;text-align:center;font-weight:700;color:#0f3d5e">20%</td><td style="padding:8px;border:1px solid #e2e8f0">Genera ventas, colocación, comisiones o conversiones adicionales.</td></tr><tr><td style="padding:8px;border:1px solid #e2e8f0">UX / UI / CX</td><td style="padding:8px;border:1px solid #e2e8f0;text-align:center;font-weight:700;color:#0f3d5e">15%</td><td style="padding:8px;border:1px solid #e2e8f0">Mejora experiencia, reduce abandono o simplifica journeys del cliente.</td></tr><tr><td style="padding:8px;border:1px solid #e2e8f0">Eficiencia operativa</td><td style="padding:8px;border:1px solid #e2e8f0;text-align:center;font-weight:700;color:#0f3d5e">15%</td><td style="padding:8px;border:1px solid #e2e8f0">Automatiza procesos, reduce llamadas, tickets o carga manual.</td></tr><tr><td style="padding:8px;border:1px solid #e2e8f0">Retención y vinculación</td><td style="padding:8px;border:1px solid #e2e8f0;text-align:center;font-weight:700;color:#0f3d5e">10%</td><td style="padding:8px;border:1px solid #e2e8f0">Fortalece adopción, recurrencia y fidelización digital.</td></tr></tbody></table>
-    <h3>Recomendación de uso</h3><p>Úsalo como base para sesiones de planeación, CAN, comités de priorización y seguimiento de proyectos. El resultado numérico no sustituye decisiones regulatorias o directivas, pero sí da trazabilidad y orden.</p>
+    <h3>Recomendación de uso</h3><p>Úsalo como base para sesiones de planeación, comités de priorización y seguimiento de proyectos. El resultado numérico no sustituye decisiones regulatorias o directivas, pero sí da trazabilidad y orden.</p>
   </div>
 </section>
 </main>
@@ -143,7 +143,7 @@ const defaults={
  segmento:['Personas físicas','Personas físicas con actividad empresarial','Personas morales','PyME','Empresarial','Gobierno','Todos'],
  canales:['BajioNet Móvil','BajioNet Web','Móvil Express','Móvil Chavos','Infiniti / Exclusive+','Todos los canales digitales'],
  estatus:['No iniciado','En análisis','Caso de negocio','Priorizado','Pruebas en desarrollo','En desarrollo','En QA','Liberado en Green','Liberado en Blue','Productivo','Cancelado'],
- comite:['CAN','Dirección','Cumplimiento','Seguridad','Tecnología','Producto','Operación','No requiere comité'],
+ comite:['Dirección','Cumplimiento','Seguridad','Tecnología','Producto','Operación','No requiere comité'],
  duenoProducto:['Banca Digital','Cash Management','Medios de Pago','Crédito','Captación','Marketing','Cumplimiento','Seguridad','Operaciones','Tecnología','Experiencia del Cliente','Canales Digitales'],
  esfuerzo:['Muy bajo','Bajo','Medio','Alto','Muy alto']
 };
